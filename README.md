@@ -32,13 +32,13 @@ ip route list | grep default | cut -d' ' -f 3
 ```
 ## Installation
 
-For MikroTik 6.48.6
+For MikroTik 6.49.17
 
 ```bash
   bash -c "$(curl -L https://raw.githubusercontent.com/mforooghii/Install-MikroTik-CHR-on-VPS/main/mik-6.49.17.sh)"
 ```
 
-For MikroTik 7.10.2
+For MikroTik 7.17.2beta
 
 ```bash
   bash -c "$(curl -L https://raw.githubusercontent.com/mforooghii/Install-MikroTik-CHR-on-VPS/main/mik7.17.sh)"
